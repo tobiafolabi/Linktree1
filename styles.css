@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+    color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 95%;
+    max-width: 788px;
+    display: flex;/* button will always be to the right*/
+    justify-content: flex-end;
+    padding: 12px; /* Pads out stuff */
+    margin-top: 15px; /* The top is a little spaced out */
+
+
+}
+
+
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.container {
+width: 91%;
+max-width: 680px;
+margin: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h1{
+    font-size: 20px;
+    Margin-bottom: 30px;
+}
+
+a {
+    text-decoration:none;
+    color: rgb(240, 240, 240);
+}
+.tile{
+    height: 56px;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
