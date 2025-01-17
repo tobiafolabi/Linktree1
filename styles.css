@@ -13,7 +13,7 @@ body{
 header{
     width: 95%;
     max-width: 788px;
-    display: flex;/* button will always be to the right*/
+    display: flex;/* sharebutton will always be to the right*/
     justify-content: flex-end;
     padding: 12px; /* Pads out stuff */
     margin-top: 15px; /* The top is a little spaced out */
@@ -29,6 +29,12 @@ header{
     border-radius: 20px;
     background-color: rgb(240, 240, 240);
 
+}
+
+.share-button svg{
+    margin-left: 12px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
 }
 
 .container {
@@ -57,4 +63,43 @@ a {
     border-radius: 17px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.tile:hover { /*makes the tile get a little bigger when cursors is on it */
+    transform: scale(1.02);
+    transition: cubic-bezier(.07, 1.41. ,82, 1.41)0.5;
+}
+.tile-share-button{
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(52, 52, 52);
+}
+
+
+.image-container{/*The height and width of the Image I put in the code*/
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;/* Makes Image circular */
+    overflow: hidden;//*This means anything outside of the circle will be hidden*/
+}
+
+.image-container img{/*This will make any image uploaded to be in the settings in Imahe container*/ 
+    /* I forgot to add img lol */
+    height: 100%;
+
+}
+
+.icon{
+    margin: 0px 8px;
+    width: 44px;
+    height: 44px;
+
+}
+
+.tile-share-button svg{
+    margin-left: 12px;
+    margin-top: 10px;
 }
